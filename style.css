@@ -1,6 +1,8 @@
 * {
   margin: 0%;
   padding: 0%;
+}
+body {
   font-family: "Merriweather", serif;
 }
 .banner {
@@ -17,7 +19,7 @@
   background-position: center;
   /* background-size: cover; */
   background-blend-mode: darken;
-  align-items: center;
+  /* align-items: center; */
 }
 .banner-description {
   justify-items: center;
@@ -34,4 +36,32 @@
   font-size: 72px;
   font-weight: 900;
   width: 632px;
+}
+main section {
+  margin-top: 120px;
+}
+.sale-container {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+.sale-title {
+  color: #f00;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.sale-pera {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+}
+.sale-category {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.sale-photo {
+  width: 802px;
+  height: 500px;
 }
