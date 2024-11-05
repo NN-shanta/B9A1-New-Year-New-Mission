@@ -99,3 +99,31 @@ main section {
   width: 319px;
   height: 464px;
 }
+/* Address section */
+.address-container {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  margin: auto;
+  width: 1320px;
+  height: 482px;
+}
+.address-description {
+  color: #070211;
+  text-align: center;
+  padding-top: 100px;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+span {
+  color: #f00;
+}
+.add-btn {
+  border-radius: 8px;
+  background: #f00;
+  margin-top: 50px;
+}
