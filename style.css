@@ -32,9 +32,14 @@ body {
   font-weight: 900;
   width: 632px;
 }
+main {
+  width: 1320px;
+  margin: auto;
+}
 main section {
   margin-top: 120px;
 }
+/* 65% OFF */
 .sale-container {
   font-family: "Inter", sans-serif;
   text-align: center;
@@ -68,6 +73,7 @@ main section {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 600px;
 }
 .party-title {
   width: 642px;
@@ -107,9 +113,7 @@ main section {
     rgba(255, 0, 0, 0.1) 0%,
     rgba(255, 0, 0, 0) 100%
   );
-  margin: auto;
-  width: 1320px;
-  height: 482px;
+  height: 480px;
   border-radius: 15px;
 }
 .address-description {
@@ -134,10 +138,6 @@ span {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1320px;
-  height: 450px;
-  margin: auto;
-  padding: 10px;
 }
 .offer-title-left {
   color: #070211;
@@ -162,14 +162,45 @@ span {
   width: 393px;
   margin-bottom: 40px;
 }
-.offer-photo {
-  width: 364.844px;
-  height: 364.844px;
-}
+
 .photo {
   border-radius: 400px;
   border: 15px solid #f00;
-  width: 365px;
-  height: 365px;
   padding: 35px;
+}
+/* Holidays Sale 50% */
+.holy-sale-descript {
+  text-align: center;
+  padding: 10px;
+}
+.holy-fn-title {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.holy-sale-title {
+  color: #070211;
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+.holy-sale-pera {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0px 150px;
+  margin-bottom: 65px;
+}
+.holy-sale-photo {
+  background-image: url("images/red.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  justify-content: space-around;
+}
+.left-photo {
+  width: 60%;
+  /* height: 50%; */
 }
