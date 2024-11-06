@@ -202,7 +202,19 @@ span {
 }
 .left-photo {
   width: 60%;
-  /* height: 50%; */
+}
+/* Our Awesome Portfolio */
+.portfolio-pera {
+  width: 896px;
+}
+.port-photo {
+  width: 416px;
+  height: 420px;
+  margin: 10px;
+}
+.port-photo:hover{
+  border: #766892 1px solid;
+  /* width: 417px; */
 }
 /* Subscribe Newsletter */
 .subscribe-container {
@@ -219,17 +231,42 @@ span {
   font-weight: 900;
   margin-bottom: 25px;
 }
-form input{
-border: none;
+form input {
+  border: none;
 }
-#mail{
-  color: rgba(7, 2, 17, 0.30);
+#mail {
+  color: rgba(7, 2, 17, 0.3);
   padding: 20px 100px 20px 20px;
-  border-radius:30px 0px 0px 30px;
+  border-radius: 30px 0px 0px 30px;
 }
-#btn{
+#btn {
   background-color: #f00;
   color: #fff;
   padding: 20px 40px;
-  border-radius:0px 30px 30px 0px;
+  border-radius: 0px 30px 30px 0px;
+}
+/* footer section*/
+footer {
+  width: 1600px;
+  height: 609px;
+  background: #070211;
+  margin: auto;
+  margin-top: 120px;
+}
+.footer-container {
+  width: 1320px;
+  margin: auto;
+  padding: 100px 10px;
+}
+.footer-add {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.social-icon {
+  text-align: center;
+  padding: 140px;
 }
