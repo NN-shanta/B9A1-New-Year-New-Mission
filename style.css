@@ -43,12 +43,13 @@ main section {
   color: #f00;
   font-size: 88px;
   font-weight: 700;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .sale-pera {
   color: #f00;
   font-size: 24px;
   font-weight: 500;
+  margin-bottom: 15px;
 }
 .sale-category {
   color: #070211;
@@ -109,6 +110,7 @@ main section {
   margin: auto;
   width: 1320px;
   height: 482px;
+  border-radius: 15px;
 }
 .address-description {
   color: #070211;
@@ -126,4 +128,48 @@ span {
   border-radius: 8px;
   background: #f00;
   margin-top: 50px;
+}
+/* NEW BEST OFFER */
+.offer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1320px;
+  height: 450px;
+  margin: auto;
+  padding: 10px;
+}
+.offer-title-left {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.offer-title-right {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.offer-pera {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  width: 393px;
+  margin-bottom: 40px;
+}
+.offer-photo {
+  width: 364.844px;
+  height: 364.844px;
+}
+.photo {
+  border-radius: 400px;
+  border: 15px solid #f00;
+  width: 365px;
+  height: 365px;
+  padding: 35px;
 }
