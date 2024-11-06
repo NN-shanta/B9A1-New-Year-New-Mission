@@ -204,3 +204,32 @@ span {
   width: 60%;
   /* height: 50%; */
 }
+/* Subscribe Newsletter */
+.subscribe-container {
+  background: rgba(255, 0, 0, 0.05);
+  height: 616px;
+  text-align: center;
+  padding-top: 120px;
+  border-radius: 15px;
+}
+
+.sub-title {
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+form input{
+border: none;
+}
+#mail{
+  color: rgba(7, 2, 17, 0.30);
+  padding: 20px 100px 20px 20px;
+  border-radius:30px 0px 0px 30px;
+}
+#btn{
+  background-color: #f00;
+  color: #fff;
+  padding: 20px 40px;
+  border-radius:0px 30px 30px 0px;
+}
