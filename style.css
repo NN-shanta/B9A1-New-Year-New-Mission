@@ -196,6 +196,9 @@ span {
 }
 
 /* Holidays Sale 50% */
+.holy-sale-container {
+  width: 100%;
+}
 .holy-sale-descript {
   text-align: center;
   padding: 10px;
@@ -220,15 +223,33 @@ span {
   padding: 0px 150px;
   margin-bottom: 65px;
 }
-.holy-sale-photo {
-  background-image: url("images/red.png");
-  background-repeat: no-repeat;
-  background-position: bottom;
+.holy-photo {
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-.left-photo {
-  width: 60%;
+.holy-box {
+  position: relative;
+}
+.gift {
+  width: 40%;
+  top: 170px;
+  left: 100px;
+  z-index: 1;
+}
+.fifty {
+  width: 20%;
+  height: 20%;
+  left: 150px;
+  top: 100px;
+  z-index: 1;
+}
+.girl {
+  width: 35%;
+}
+
+.holy-bottom-red {
+  width: 100%;
 }
 /* Our Awesome Portfolio */
 .portfolio-pera {
